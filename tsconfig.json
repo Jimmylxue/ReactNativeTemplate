@@ -1,0 +1,47 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
+      "@screens/*": [
+        "./src/screens/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@api/*": [
+        "./src/api/*"
+      ],
+      "@biz/*": [
+        "./src/biz/*"
+      ],
+      "@screen/*": [
+        "./src/screen/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "nativewind-env.d.ts"
+  ]
+}
