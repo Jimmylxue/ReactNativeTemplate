@@ -25,7 +25,6 @@
     "axios": "^1.8.4",
     "classnames": "^2.5.1",
     "lodash-es": "^4.17.21",
-    "moment": "^2.30.1",
     "nativewind": "^4.1.23",
     "react": "19.0.0",
     "react-native": "0.78.1",
